@@ -13,7 +13,7 @@ var cacheFiles = [
         'index.html',
         'main.css',
         'youhun.png'
-        revision: 'v1' // 加revision，版本改了以後，sw.js 在 application 上會更新
+        revision: 'v2' // 加revision，版本改了以後，sw.js 在 application 上會更新
     }
 ];
 workbox.precaching.precacheAndRoute(cacheFiles);
