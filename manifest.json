@@ -5,12 +5,12 @@
     "icons": [
         {
          
-            "src": "/youhun.png",
-            "sizes": "120x120",
+            "src": "images/128.png",
+            "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "/512.png",
+            "src": "images/512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
