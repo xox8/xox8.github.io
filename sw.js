@@ -3,11 +3,11 @@ var cacheStorageKey = 'minimal-pwa-1'
 var cacheList=[
   '/',
   'index.html',
-  'css/bootstrap.min.css'
-  'css/niuqiqi-demo.css' 
-  'css/style.css'  
-  'images/128.png'    
-  'images/512.png'  
+  '/css/bootstrap.min.css'
+  '/css/niuqiqi-demo.css' 
+  '/css/style.css'  
+  '/images/128.png'    
+  '/images/512.png'  
 ]
 self.addEventListener('install',e =>{
   e.waitUntil(
