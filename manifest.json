@@ -5,11 +5,9 @@
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#3eaf7c",
-  "icons": [
-    {
+  "icons": [{
       "src": "/youhun.png",
       "sizes": "120x120",
       "type": "image/png"
-    }
-  ],
+}],
 }
