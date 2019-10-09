@@ -1,18 +1,22 @@
+
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>Hello PWA</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
+  <h3>Hello PWA</h3>
 </body>
-</html>
+<script>
+  // 检测浏览器是否支持SW
+  if(navigator.serviceWorker != null){
+    navigator.serviceWorker.register('sw.js')
+    .then(function(registartion){
+      console.log('支持sw:',registartion.scope)
+    })
+  }
+</script>
