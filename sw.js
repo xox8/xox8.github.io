@@ -6,14 +6,14 @@ var cacheList=[
   'main.css',
   'youhun.png'
 ]
-self.addEventListener('install',e =>{
+self.addEventListener('install',e =>{  // install 事件，它发生在浏览器安装并注册 Service Worker 时       
+  // e.waitUtil 用于在安装成功之前执行一些预装逻辑
   e.waitUntil(
     caches.open(cacheStorageKey)
     .then(cache => cache.addAll(cacheList))
     .then(() => self.skipWaiting())
   )
 })
-
 self.addEventListener('fetch',function(e){
   e.respondWith(
     caches.match(e.request).then(function(response){
@@ -24,7 +24,7 @@ self.addEventListener('fetch',function(e){
     })
   )
 })
-self.addEventListener('activate',function(e){
+self.addEventListener('activated',function(e){
   e.waitUntil(
     //获取所有cache名称
     caches.keys().then(cacheNames => {
