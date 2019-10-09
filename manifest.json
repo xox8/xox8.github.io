@@ -8,6 +8,11 @@
             "src": "/youhun.png",
             "sizes": "120x120",
             "type": "image/png"
+        },
+        {
+            "src": "/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ],
     "theme_color": "#fff",
