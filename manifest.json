@@ -1,19 +1,15 @@
 {
-  "name": "HB Blog",
-  "short_name": "HB Blog",
-  "description": "About an engineer & designer who loves web.",
-  "icons": [{
-    "src": "icons/128.png",
-    "sizes": "128x128",
-    "type": "image/png"
-  }, {
-    "src": "icons/512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "background_color": "#fff",
-  "theme_color": "#000",
-  "start_url": "/",
+  "name": "一个PWA示例",
+  "short_name": "PWA示例",
+  "start_url": "/index.html",
   "display": "standalone",
-  "orientation": "portrait"
+  "background_color": "#fff",
+  "theme_color": "#3eaf7c",
+  "icons": [
+    {
+      "src": "/youhun.jpg",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
 }
