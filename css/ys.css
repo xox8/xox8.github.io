@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+
+
+     <style>
+        span{float:center;display:inline-block;}
+        input{border: 0 none;}
+		select{vertical-align:top;width: 18%;}
+		button{vertical-align:top;}
+        .span1{width: 810px;position:relative;vertical-align:top;}
+        .input{width: 230px;vertical-align:top;}
+    </style>
+
+
