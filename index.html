@@ -30,7 +30,7 @@ a:hover,a:visited,a:link{text-decoration:#ffffff}
 <body bgcolor="#1f2227">
 <body>
 <div align="center"> 
-	  <div class="search" style="margin-top:200px">
+	  <div class="search" style="margin-top:150px">
 		    <select id="option1" name="option1" class="select" style="border:0;height:40px;outline:none;"> 
               <option value="" disabled>[SEARCH]</option>
               <option value="1">Baidu</option>
@@ -144,12 +144,11 @@ a:hover,a:visited,a:link{text-decoration:#ffffff}
 </div>
 <script>
   // 检测浏览器是否支持SW
-  if(navigator.serviceWorker != null){
-    navigator.serviceWorker.register('sw.js')
-    .then(function(registartion){
-      console.log('支持sw:',registartion.scope)
-    })
-  }
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
  </script>
 
 </body>
