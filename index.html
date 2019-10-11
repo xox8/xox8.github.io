@@ -1,7 +1,6 @@
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,40 +8,51 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="BookMarks">
 <title>BookMarks</title>
- <meta name="theme-color" content="#ffffff">
+
  <style>
 a:hover,a:visited,a:link{color:#ffffff;}
-a:hover{color:#ed0802;} 
-a:hover,a:visited,a:link{text-decoration:none}
+a:hover{color:#87b6fe;} 
+a:hover,a:visited,a:link{text-decoration:#ffffff}
 </style>
 
-     <style>
-        span{float:center;display:inline-block;}
-        input{border: 0 none;}
-		select{vertical-align:top;width: 18%;}
-		button{vertical-align:top;}
-        .span1{width: 810px;position:relative;vertical-align:top;}
-        .input{width: 230px;vertical-align:top;}
-		
-    </style>
+<!-- CSS -->
 
-<body bgcolor="#000">
 
-             <div align="center">   
-	  <div class="search"  style="margin-top: 150px">
-		    <div align="center">
-		      <select id="option1" name="option1" class="select" style="border:0;height:42px;outline:none;"> 
-		        <option value="" disabled>[SEARCH]</option>
-		        <option value="1">Baidu</option>
-		        <option value="2">Bing</option>              
-		        <option value="3">Google</option>       
-	          </select>
-		      <input id="inputtext1" class="input" type="text" title="search"
-             style="color:#1e90ff;width:56%;height:40px;outline:none;font-size:28px;" placeholder="" onkeydown="if(event.keyCode==13){jump1();return true}"
-				name="input" />    
-		      <!--	<button type="submit" class="button1" onclick="jump()"/></button> -->
-		      <input type="button" class="button button-square button-square" value="Search" style="width:18%;height: 42px;" onclick="jump1()" target="new"/>  
-		      <script type="text/javascript">
+    <link href="css/ys.css" rel="stylesheet" type="text/css">
+    <link href="css/buttons.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+</head>
+  <!--背景图片-->
+<body bgcolor="#1f2227">
+<body>
+<div align="center"> 
+	  <div class="search" style="margin-top:200px">
+		    <select id="option1" name="option1" class="select" style="border:0;height:40px;outline:none;"> 
+              <option value="" disabled>[SEARCH]</option>
+              <option value="1">Baidu</option>
+		      <option value="2">Bing</option>
+		      <option value="3">Google</option>
+
+	      </select>
+		    
+		    
+		    
+		    <input id="inputtext1" class="input" type="text" title="search"
+             style="color:#1e90ff;width:55.5%;height:40px;outline:none;font-size:28px;" placeholder="" onkeydown="if(event.keyCode==13){jump1();return true}"
+				name="input" />
+		    
+	      <!--	<button type="submit" class="button1" onclick="jump()"/></button> -->
+		    <input type="button" class="button button-square button-square" value="Search" style="width:18%;height: 40px;" onclick="jump1()" target="new" />
+
+		    
+		    
+		    
+		    
+        <script type="text/javascript">
 	function jump1()
 	{
 		var obj=document.getElementById("option1");
@@ -50,54 +60,88 @@ a:hover,a:visited,a:link{text-decoration:none}
 		var value=obj.options[index].value;
 		var str=document.getElementById("inputtext1").value;
 		    if(value==1)
-			window.open('https://www.baidu.com/s?wd='+str);
-			if(value==2)
+			window.open('https://www.baidu.com/s?wd='+str);		
+		    if(value==2)
 			window.open('https://cn.bing.com/search?q='+str);
 		    if(value==3)
-		    window.open('https://www.google.com.hk/search?q='+str);	
+		    window.open('https://www.google.com.hk/search?q='+str);
+			
+			
 	}
             </script>
-	</div>	      
 
-            </br>		      
-		      
-		      <table width="95%" border="1" cellpadding="0" cellspacing="0" bordercolor="#222">
-		        
-		        <tr>
-		          <td><div align="center"><a href="https://m.youtube.com/">YouTube</a></div></td>
-		          <td><div align="center"><a href="https://mail.google.com">Gmail</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="https://r94pan.ddnsto.com/">Router*</a></div></td>
-		          <td><div align="center"><a href="http://router.asus.com/index.asp">Router</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="https://h5.m.taobao.com/">TaoBao</a></div></td>
-		          <td><div align="center"><a href="https://m.jd.com/">JD</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="https://tieba.baidu.com">TieBa</a></div></td>
-		          <td><div align="center"><a href="http://www.oneplusbbs.com/">OnePlus</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="https://translate.google.cn/">Google Translate</a></div></td>
-		          <td><div align="center"><a href="http://www.iciba.com/">Kingsoft PowerWord</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="https://www.youtube.com">JAVLibrary</a></div></td>
-		          <td><div align="center"><a href="https://www.youtube.com">T66y</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="http://www.pornhub.com/">PronHub</a></div></td>
-		          <td><div align="center"><a href="https://www.thisav.com/">ThisAV</a></div></td>
-	            </tr>
-		        <tr>
-		          <td><div align="center"><a href="https://www.133er.com/">SiHu</a></div></td>
-		          <td><div align="center"><a href="http://www.xvideo.com/">XVideo</a></div></td>
-		          
-  </table>
 </div>
-</body>
+</div>
+
+
+<div align="center" style="margin-top: 56px">
+<table width="85%" border="0">
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="https://m.youtube.com/"><img src="img/youtube.png" width="32" height="32"></a></td>
+    <td><a href="https://m.youtube.com/">YouTube</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://m.youtube.com/" style="color:#555">https://m.youtube.com</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="https://mail.google.com/"><img src="img/gmail.png" width="32" height="32"></a></td>
+    <td><a href="https://mail.google.com/">YouTube</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://mail.google.com/" style="color:#555">https://mail.google.com</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="https://fanqiangdang.com/"><img src="img/ssr.png" width="32" height="32"></a></td>
+    <td><a href="https://fanqiangdang.com/">FanQiangDang</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://fanqiangdang.com/" style="color:#555">https://fanqiangdang.com</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="http://router.asus.com"><img src="img/router.png" width="32" height="32"></a></td>
+    <td><a href="http://router.asus.com/">Wireless Router</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://router.asus.com/" style="color:#555">http://router.asus.com</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="https://h5.m.taobao.com/"><img src="img/taobao.png" width="32" height="32"></a></td>
+    <td><a href="https://h5.m.taobao.com/">TaoBao</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://h5.m.taobao.com/" style="color:#555">https://h5.m.taobao.com</a></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="https://m.jd.com/"><img src="img/jd.png" width="32" height="32"></a></td>
+    <td><a href="https://m.jd.com/">JD</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://m.jd.com/" style="color:#555">https://m.jd.com</a></td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+</div>
 <script>
   // 检测浏览器是否支持SW
   if(navigator.serviceWorker != null){
@@ -107,4 +151,6 @@ a:hover,a:visited,a:link{text-decoration:none}
     })
   }
  </script>
-             </html>
+
+</body>
+</html>
