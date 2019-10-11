@@ -1,7 +1,7 @@
 {
-    "name": "hello",
-    "short_name": "pwa",
-    "description": "pwa测试",
+    "name": "BookMarks",
+    "short_name": "BookMarks",
+    "description": "BookMarks 书签",
     "icons": [
         {
          
