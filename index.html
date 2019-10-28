@@ -49,8 +49,8 @@ user-select:none;
 <body bgcolor="#202125">
 <body>
 <div align="center"> 
-	  <div class="search" style="margin-top:123px">
-		    <select id="option1" name="option1" class="select" style="border:0;height:40px;outline:none;"> 
+	  <div class="search" style="margin-top:123px;outline:none;">
+		    <select id="option1" name="option1" class="select" style="border:0;height:40px;outline:none; background-color: #3c4043;color:#fff;"> 
               <option value="" disabled>[SEARCH]</option>
               <option value="1">Baidu</option>
 		      <option value="2">Bing</option>
@@ -60,12 +60,12 @@ user-select:none;
 		    
 		    
 		    
-		    <input id="inputtext1" class="input" type="text" title="search"
-             style="color:#87b6fe;width:55.5%;height:40px;outline:none;font-size:26px;" placeholder="" onkeydown="if(event.keyCode==13){jump1();return true}"
+		    <input id="inputtext1" class="input" type="text" title="search" 
+             style="color:#87b6fe;width:55.5%;height:40px;outline:none;font-size:26px;text-indent:6px;background-color: #3c4043;" placeholder="" onkeydown="if(event.keyCode==13){jump1();return true}"
 				name="input" />
 		    
 	      <!--	<button type="submit" class="button1" onclick="jump()"/></button> -->
-		    <input type="button" class="button button-square button-square" value="Search" style="width:18%;height: 40px;" onclick="jump1()" target="new" />
+		    <input type="button" value="Search" style="width:18%;height: 40px;background-color: #3c4043;color:#fff;" onclick="jump1()" target="new" />
 
 		    
 		    
@@ -152,8 +152,17 @@ user-select:none;
   <tr>
     <td><a href="https://m.jd.com/" style="color:#555">https://m.jd.com</a></td>
   </tr>
+    <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50" height="40" rowspan="2"><a href="https://translate.google.cn/"><img src="img/translation.png" width="32" height="32"></a></td>
+    <td><a href="https://translate.google.cn/">Translation</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://translate.google.cn/" style="color:#555">https://translate.google.cn</a></td>
+  </tr>
 </table>
-
 
 
 
