@@ -29,6 +29,12 @@ scrollbar-width: none;
   background: #0e1621;
   font-size: 62.5%;
   line-height: 0;
+  -moz-user-select:none;/*火狐*/
+-webkit-user-select:none;/*webkit浏览器*/
+-ms-user-select:none;/*IE10*/
+-khtml-user-select:none;/*早期浏览器*/
+user-select:none;
+
 }
 
 br { display: block; line-height: 1.6em; } 
