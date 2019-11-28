@@ -16,10 +16,11 @@ body {
 </style>
 
 </head>
-
+<a class="a" id="k_id" href="javascript:void(0);" onclick="test(this)">123123</a>
 <body>
 
 <script> 
+ function test(xmlhttp) {
  var xmlhttp;
  if (window.XMLHttpRequest) {
         xmlhttp = new XMLHttpRequest()
@@ -31,14 +32,15 @@ body {
 		   	 var reg=/"url":"(.*?)"/;
              results = reg.exec(xmlhttp.responseText);
 	         var url=results[1].replace("http://h5live.gslb.cmvideo.cn","http://mgzb.live.miguvideo.com:8088");
-                 u = encodeURIComponent(url);
+
 				 self.location.href=(url)   
     }
  }
+
 var url = 'http://h5.miguvideo.com/playurl/v1/play/playurlh5?contId=624303497&clientId=migu';
 xmlhttp.open("get", url, true);
 xmlhttp.send();
-
+}
 
 
 </script>
