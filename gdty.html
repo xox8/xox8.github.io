@@ -1,0 +1,43 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #CCC;
+}
+body {
+	background-color: #000;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<script language="javascript"> 
+ var xmlhttp;
+ if (window.XMLHttpRequest) {
+        xmlhttp = new XMLHttpRequest()
+    } else {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP")
+    }
+    xmlhttp.onreadystatechange = function() {
+        if(xmlhttp.readyState==4 && xmlhttp.status==200){
+		   	 var reg=/"url":"(.*?)"/;
+             results = reg.exec(xmlhttp.responseText);
+	         var url=results[1].replace("http://h5live.gslb.cmvideo.cn","http://mgzb.live.miguvideo.com:8088");
+                 u = encodeURIComponent(url);
+				window.location.href=(url)
+
+    }
+ }
+var url = 'http://h5.miguvideo.com/playurl/v1/play/playurlh5?contId=624303497&clientId=migu';
+xmlhttp.open("get", url, true);
+xmlhttp.send();
+</script>
+</body>
+</html>
