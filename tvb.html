@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width， initial-scale=1" />
 <title>Jade</title>
 <body bgcolor="#000" onload="javascript:window.alert('hello')">
-   <script type="text/javascript">
+<script type="text/javascript">
 try {
 var urlhash = window.location.hash;
 if (!urlhash.match("fromapp"))
@@ -21,15 +21,47 @@ catch(err)
 }
 </script>
 
-<style type="text/css">
-body {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
-	</style>
 
+
+<script>
+document.onkeydown = function(){
+    if(window.event && window.event.keyCode == 123) {
+        alert("F12被禁用");
+        event.keyCode=0;
+        event.returnValue=false;
+    }
+    if(window.event && window.event.keyCode == 13) {
+        window.event.keyCode = 505;
+    }
+    if(window.event && window.event.keyCode == 8) {
+        alert(str+"\n请使用Del键进行字符的删除操作！");
+        window.event.returnValue=false;
+    }
+}
+</script>
+<!--右键禁用-->
+<script> document.body.onselectstart=document.body.oncontextmenu=function(){return false;};</script>
 
 <script src="https://xox8.github.io/js/m3u8player.js"></script>
+
+<style type="text/css">
+zt1{
+font-size:22px;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+line-height:44px;
+font-weight:bolder;
+text-align:left;
+color:#fff;
+}
+.top{
+width: 48%;
+margin-top:4%;
+}
+</style>
 <div align="center">	
-<h2 style="color:#fff;margin-top:3%;">TVB翡翠台</h2>
-<video id="video" style="outline:none;" width="48%" height="27%"  controls></video>
+<div class="top" align="left">
+   <zt1>翡翠台</zt1>
+   </div>
+<video id="video" style="outline:none;" width="48%" height="27%" controls></video>
 </div>
 
 
