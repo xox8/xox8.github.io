@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width， initial-scale=1" />
+<title>无标题文档</title>
+</head>
+<body bgcolor="#333" onload="javascript:window.alert('你现在浏览的是内网网站')">
+
+
+<style type="text/css">
+zt1{color:color: #fff;font-size:20px;padding: 0px 0px 0px 0px;margin-left:40px}
+.bg1{background-color:#1a1a1a;width: 100%; max-width:640px}
+.top{width: 100%;max-width: 1000px;margin-top:100px; }
+zt2 { font-size:1em;font-weight:bolder;line-height:2em;text-align:center;color:#999;}
+</style>
+
+<!--被发现啦-->
+
+<!--右键无反应-->
+<script> document.body.onselectstart=document.body.oncontextmenu=function(){return false;};</script>
+
+
+
+
+
+
+
+<script>
+document.oncontextmenu = function (event){
+if(window.event){
+event = window.event;
+}try{
+var the = event.srcElement;
+if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+return false;
+}
+return true;
+}catch (e){
+return false;
+}
+}
+</script>
+
+
+
+
+<script type="text/javascript" src="https://xox8.github.io/ckplayer/ckplayer/ckplayer.js" charset="UTF-8"></script>
+<div align="center" >			
+<div class="top" align="left">
+<zt2>TVB直播</zt2>
+</div>
+
+<script type="text/javascript" src="http://n1.net/ckplayer/x/ckplayer.js"></script>
+<div class="video" style="width: 100%;max-width: 1000px;"></div>
+<script type="text/javascript">
+	var videoObject = {
+		container: '.video',//“#”代表容器的ID，“.”或“”代表容器的class
+		variable: 'player',//该属性必需设置，值等于下面的new chplayer()的对象
+		poster:'MTV2019.png',//封面图片
+		adinsertlink:'http://n1.net/av.mkv',
+		autoplay: false,//是否自动播放
+		html5m3u8:true,
+		loop: false,//循环播放
+		video:'http://pili-live-hdl.qhmywl.com/dsdtv/b3a93cbbd1908e81783879747bb3090a.m3u8'//视频地址
+	};	
+	var player=new ckplayer(videoObject);
+	
+</script>
+
+
+
+
+</body>
+</html>
