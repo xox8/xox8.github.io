@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width， initial-scale=1" />
+<title>Jade</title>
+<body bgcolor="#000" onload="javascript:window.alert('hello')">
+<script src="https://xox8.github.io/js/m3u8player.js"></script>
+<div align="center" >	
+<video id="video" style="outline:none;margin-top:100px;" width="1280px" height="720px"  controls></video>
+</div>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('video'); // 获取 video 标签
+    var hls = new Hls(); // 实例化 Hls 对象
+    hls.loadSource('http://pili-live-hdl.qhmywl.com/dsdtv/b3a93cbbd1908e81783879747bb3090a.m3u8'); // 传入路径
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play(); // 调用播放 API
+  });
+ }
+</script></body>
+</html>
