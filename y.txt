@@ -1,8 +1,8 @@
 ﻿测试,#genre#
-1,http://v6.hbpoon.top/gz200131.mp4
-mp3,http://v6.hbpoon.top/%E8%AE%B8%E9%9D%96%E9%9F%B5%20-%20%E6%A2%A6%E4%BC%B4(Live).mp3
+1,http://v6.hbpoon.top/gz200131.mp4#http://192.168.50.246/gz200131.mp4
+mp3,http://v6.hbpoon.top/%E8%AE%B8%E9%9D%96%E9%9F%B5%20-%20%E6%A2%A6%E4%BC%B4(Live).mp3#http://192.168.50.246/%E8%AE%B8%E9%9D%96%E9%9F%B5%20-%20%E6%A2%A6%E4%BC%B4(Live).mp3
 我的100分男友,https://video.sigujx.com/m3u8/Ha246420d1576483ba26a43332177a936l.m3u8
-霍哥廚房35,http://v6.hbpoon.top/%E9%9C%8D%E5%93%A5%E5%BB%9A%E6%88%BF35.mkv
+霍哥廚房35,http://v6.hbpoon.top/%E9%9C%8D%E5%93%A5%E5%BB%9A%E6%88%BF35.mkv#http://192.168.50.246/%E9%9C%8D%E5%93%A5%E5%BB%9A%E6%88%BF35.mkv
 港台,#genre#
 无线新闻台,P2p://sdgdklwos.finetv.tv:9906/5a562bec0007bfd761a2998e00b83dd5
 无线新闻台,P2p://sdgdklwos.finetv.tv:9906/5ad32bdc000b780449ee52022e841cf7
