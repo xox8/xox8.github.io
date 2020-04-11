@@ -262,9 +262,9 @@ img::-moz-selection{color:#fff;background:0 0}
   -o-background-size: cover;
   background-position: center 0;
 }
-.bg1{background-color:#fff;margin-top:56px;width:90%;height:90%;max-width:500px;border-radius:5px;padding:10px 10px 10px 10px}
+.bg1{background-color:#fff;margin-top:56px;width:90%;height:90%;max-width:500px;border-radius:5px;padding:20px 20px 20px 20px}
 .top{margin-top:168px;}
-zt1 {font-size:18px;font-weight:bolder;line-height:24px;color:#333;float:left;margin-top:10px}
+zt1 {font-size:16px;font-weight:bolder;line-height:24px;color:#666;float:left;margin-top:0px}
 zt2{font-size:18px;font-weight:bolder;color:#fff;}
  input{border: 0 none;}
 .layui-input{vertical-align:top;}
