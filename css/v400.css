@@ -61,7 +61,7 @@ position:fixed;top:-50px;width:100%;text-align:center;z-index:99999;transition:a
 .file{padding:20px;width:33.333%;float:left;box-sizing:border-box}
 .fileImg{height:230px;background-size:cover;background-position:center;border-radius:5px;box-shadow:0 0 1px 1px #d5d5d5;position:relative;background-color:#555}
 .fileImg a{outline:none}
-.fileDetails{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 100%);
+.fileDetails{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
 position:absolute;width:100%;bottom:0;border-radius:0 0 5px 5px;padding:50px 25px 20px;color:#fff;box-sizing:border-box;z-index:8}
 .fileName{float:left;width:70%;text-shadow:1px 1px 1px rgba(0,0,0,0.35)}
 .fileDetails h3{margin:0;font-size:15px;font-weight:400}
