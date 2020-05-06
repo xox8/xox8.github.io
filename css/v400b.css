@@ -4,7 +4,7 @@ input{-webkit-appearance:none;-moz-appearance:none}
 input:focus{outline:none}
 .middle{display:table;height:100%;min-height:100%;position:absolute;text-align:center;top:0;width:100%}
 .inMiddle{display:table-cell;vertical-align:middle}
-.cont{overflow:hidden;margin:63px 20px 20px}
+.cont{overflow:hidden;margin:20px 20px 20px}
 .viewMore{padding:20px;text-align:center;background-color:#fff;color:#555;font-size:13px;border-top:1px solid #eee;cursor:pointer}
 .logo{float:left;padding:15px 20px}
 .logo a{outline:0}
@@ -59,7 +59,9 @@ position:fixed;top:-50px;width:100%;text-align:center;z-index:99999;transition:a
 .fileInfo{float:right;padding:0 20px;line-height:40px}
 .playerContainer{width:65%;margin:0 auto}
 .file{padding:20px;width:33.333%;float:left;box-sizing:border-box}
-.fileImg{height:230px;background-size:cover;background-position:center;border-radius:6px;box-shadow:0 0 1px 1px #1a1a1a;position:relative;background-color:#555}
+.file101{padding:0 5% 0 5%;box-sizing:border-box}
+.fileImg{height:230px;background-size:cover;background-position:center;border-radius:6px;box-shadow:0 0 1px 1px #1f1f1f;position:relative;background-color:#555}
+.fileImg101{height:300px;background-size:cover;background-position:center;border-radius:6px;box-shadow:0 0 1px 1px #1f1f1f;position:relative;background-color:#555}
 .fileImg a{outline:none}
 .fileDetails{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
 position:absolute;width:100%;bottom:0;border-radius:0 0 5px 5px;padding:50px 25px 20px;color:#fff;box-sizing:border-box;z-index:8}
@@ -89,7 +91,7 @@ border-radius:0 5px 5px 5px;transition:all 500ms}
 .fileLink{width:100%;height:175px;position:absolute;z-index:9;background:url(/img/play.png) no-repeat center 90px;
 filter:drop-shadow(0px 0px 3px rgba(0,0,0,0.2)) opacity(0.85);background-size:40px;opacity:0;cursor:pointer;transition:all .15s}
 
-.fileLink2{width:100%;height:175px;position:absolute;z-index:9;
+.fileLink2{width:100%;height:245px;position:absolute;z-index:9;
 filter:drop-shadow(0px 0px 3px rgba(0,0,0,0.2)) opacity(0.85);background-size:40px;opacity:0;cursor:pointer;transition:all .15s}
 .fileLink:hover{opacity:1}
 .vidInfo{padding:20% 0;text-align:center;font-size:22px;color:#999;max-width:400px;margin:0 auto}
@@ -108,7 +110,7 @@ filter:drop-shadow(0px 0px 3px rgba(0,0,0,0.2)) opacity(0.85);background-size:40
 .file{width:100%;padding:12px 0}
 
 
-.srchUpload{margin:80px 20px -3px}.srchUpload.active{margin:43px 30px -3px}
+
 
 
 .cropMargin{margin-top:132px!important}
@@ -160,3 +162,7 @@ footer .list-inline{margin:0;padding:0}
 footer .copyright{font-size:14px;text-align:center;margin-bottom:50px}
 footer .copyright a{color:#337ab7}
 footer .copyright a:hover,footer .copyright a:focus{color:#87b6fe}
+
+.bg1{max-width:1280px;border-radius:6px;margin:0 auto;margin-bottom:40px;box-shadow:0 0 1px 1px #1f1f1f}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.botCenter{width:100%; height:25px; line-height:25px;bottom:25px;left:0px;font-size:20px; color:#000; text-align:center; position:fixed;}
