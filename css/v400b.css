@@ -1,5 +1,5 @@
 body{margin:0;font-size:12px;font-family:'Roboto',Arial,sans-serif;font-weight:400;background-color:#232323}
-img{display:block}
+
 input{-webkit-appearance:none;-moz-appearance:none}
 input:focus{outline:none}
 .middle{display:table;height:100%;min-height:100%;position:absolute;text-align:center;top:0;width:100%}
@@ -162,7 +162,10 @@ footer .list-inline{margin:0;padding:0}
 footer .copyright{font-size:14px;text-align:center;margin-bottom:50px}
 footer .copyright a{color:#337ab7}
 footer .copyright a:hover,footer .copyright a:focus{color:#87b6fe}
-
+.bgw{background-color:#323232;max-width:600px;width:100%;border-radius:6px;margin:0 auto;margin-bottom:40px;box-shadow:0 0 1px 1px #1f1f1f;}
+zt1 {font-size:16px;font-weight:bolder;line-height:24px;color:#666;float:left;margin-top:0px;padding:20px;}
+zt3 {font-size:16px;font-weight:bolder;line-height:24px;color:#666;float:left;margin-top:0px;padding:20px;background-color:#323232;}
 .bg1{max-width:1280px;border-radius:6px;margin:0 auto;margin-bottom:40px;box-shadow:0 0 1px 1px #1f1f1f}
+.bg2{max-width:600px;border-radius:6px;margin:0 auto;margin-bottom:40px;box-shadow:0 0 1px 1px #1f1f1f;}
 .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
 .botCenter{width:100%; height:25px; line-height:25px;bottom:25px;left:0px;font-size:20px; color:#000; text-align:center; position:fixed;}

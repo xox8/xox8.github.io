@@ -56,7 +56,7 @@ button.paper-button{border:0;font-size:1em;line-height:25px;background-color:#ff
 .paper-shadow-bottom-z-3{box-shadow:0 12px 15px 0 rgba(0,0,0,.24)}
 .paper-shadow-top-z-4{box-shadow:0 25px 55px 0 rgba(0,0,0,.21)}
 .card{background:#fff;width:300px;height:300px;position:relative;margin:16px;border-radius:2px}
-body{background:#373737;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;font-size:16px;color:#404040;overflow-x:hidden}
+body{background:#232323;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;font-size:16px;color:#404040;overflow-x:hidden}
 p{margin:30px 0}
 
 
@@ -110,7 +110,7 @@ pre code{display:block;width:auto;white-space:pre;word-wrap:normal}
 .post-container .pager li.next{float:right}
 .post-container .pager li.previous{float:left}
 .post-container .pager li>a{width:100%}
-.post-container .pager li>a>span{color:#ccc;font-weight:400;letter-spacing:.5px}@media only screen and (max-width:767px){.navbar-default .navbar-collapse{position:absolute;right:0;border:none;background:url(../img/800.png) ;border-radius:2px;width:180px}
+.post-container .pager li>a>span{color:#ccc;font-weight:400;letter-spacing:.5px}@media only screen and (max-width:767px){.navbar-default .navbar-collapse{position:absolute;right:0;border:none;background:url(../img/800b.png) ;border-radius:2px;width:180px}
 #hbpoonblog_navbar{opacity:0;transform:scaleX(0);transform-origin:top right;transition:all 200ms cubic-bezier(0.47,0,.4,.99) 0ms;-webkit-transform:scaleX(0);-webkit-transform-origin:top right;-webkit-transition:all 200ms cubic-bezier(0.47,0,.4,.99) 0ms}
 #hbpoonblog_navbar a{font-size:13px;}
 #hbpoonblog_navbar .navbar-collapse{height:0;transform:scaleY(0);transform-origin:top right;transition:transform 400ms cubic-bezier(0.32,1,.23,1) 0ms;-webkit-transform:scaleY(0);-webkit-transform-origin:top right;-webkit-transition:-webkit-transform 400ms cubic-bezier(0.32,1,.23,1) 0ms}
@@ -262,9 +262,9 @@ img::-moz-selection{color:#fff;background:0 0}
   -o-background-size: cover;
   background-position: center 0;
 }
-.bg1{background-color:#fff;margin-top:56px;width:90%;height:90%;max-width:500px;border-radius:5px;padding:20px 20px 20px 20px}
+.bg1{background-color:#373737;margin-top:56px;width:90%;height:90%;max-width:500px;border-radius:5px;padding:20px 20px 20px 20px}
 .top{margin-top:100px;}
-zt1 {font-size:16px;font-weight:bolder;line-height:24px;color:#666;float:left;margin-top:0px}
+zt1 {font-size:16px;font-weight:bolder;line-height:24px;color:#888;float:left;margin-top:0px}
  input{border: 0 none;}
 .layui-input{vertical-align:top;}
 .tvpb {width: 272px;height:272px;margin: 0 auto; /*水平居中*/position: relative;top: 50%; /*偏移*/}
