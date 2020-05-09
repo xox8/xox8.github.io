@@ -51,10 +51,10 @@
                     </li>
                     <li><a href="https://mail.google.com/">Gmail</a>
                     </li>
-                    <li><a href="https://h5.m.taobao.com/">TaoBao</a>
-                    </li>                    
                     <li><a href="https://m.jd.com/">JD</a>
-                    </li>     
+                    </li>                       
+                    <li><a href="https://h5.m.taobao.com/">TaoBao</a>
+                    </li>                      
                     <li><a href="https://translate.google.cn">Translation</a>
                     </li>                       
                 </ul>
@@ -70,30 +70,29 @@
 
 
   
-  <header class="intro-header" style="background-image: url('https://s1.ax1x.com/2020/05/08/YuOthj.png')">
+  <header class="intro-header" style="background-image: url('https://s1.ax1x.com/2020/05/10/Y11nBj.png')">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 				<div class="site-heading" id="tag-heading">
 
 
-	
+<zt5></zt5>	
 <div class="bg2">
 	  <div class="search" style="margin-top:-100px;outline:none;">
-		    <select id="option1" name="option1" class="select"> 
+		    <select id="option1" name="option1" class="selectbm"> 
               <option value="" disabled>[SEARCH]</option>
               <option value="1">Baidu</option>
 		      <option value="2">Bing</option>
 		      <option value="3">Google</option>
-              <option value="4">t</option>
 	      </select>
 		    
 		    
 		    
-		    <input id="inputtext1" class="input2" type="text" title="search" placeholder="" onkeydown="if(event.keyCode==13){jump1();return true}" name="input" />
+		    <input id="inputtext1" class="inputbm" type="text" title="search" placeholder="" onkeydown="if(event.keyCode==13){jump1();return true}" name="input" />
 		    
 	      <!--	<button type="submit" class="button1" onclick="jump()"/></button> -->
-		    <input type="button" value="Search" class="button2" onclick="jump1()" target="_self" />
+		    <input type="button" value="Search" class="buttonbm" onclick="jump1()" target="_self" />
 	    
 </div>
 </div>
@@ -107,13 +106,12 @@
 		var value=obj.options[index].value;
 		var str=document.getElementById("inputtext1").value;
 		    if(value==1)
-			window.open('https://www.baidu.com/s?wd='+str ,'_self');		
+			window.open('https://www.baidu.com/s?wd='+str,'_self');		
 		    if(value==2)
 			window.open('https://cn.bing.com/search?q='+str,'_self');
 		    if(value==3)
 		    window.open('https://www.google.com.hk/search?q='+str,'_self');
-			if(value==4)
-			var new_url = 'https://www.baidu.com/s?wd='+str ;        window.open(new_url,'newindow','height=600,width=900,top=100,left=100,')
+			
 			
 	}
             </script>
