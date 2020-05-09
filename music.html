@@ -52,10 +52,10 @@
                     </li>
                     <li><a href="/about">About</a>
                     </li>
-                    <li><a href="/video">Video</a>
-                    </li>
                     <li><a href="/music">Music</a>
-                    </li>                    
+                    </li>                     
+                    <li><a href="/video">Video</a>
+                    </li>                   
                     <li><a href="/iptv">IPTV</a>
                     </li>   
                     
@@ -77,14 +77,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="site-heading">
-					<h1>MUSIC</h1>
-					<span class="subheading">音樂</span>
+				<div class="site-heading" id="tag-heading">
+<h1>MUSIC</h1>
+<div class="bg2">	
+<div id="audioBox">
+</div>
+</div> 
 				</div>
 			</div>
 		</div>
 	</div>
+
 </header>
+<script>
+	document.body.classList.add('page-fullscreen');
+</script>
 
 
 
@@ -94,9 +101,6 @@
 
 
 
-<div align="center">
-<div class="bg2">		
-<div id="audioBox">
 
 <script type="text/javascript"> 
 window.onload = function(){ 
@@ -106,7 +110,7 @@ var myAudio = new Audio();
 myAudio.preload = true; 
 myAudio.style.outline ='0'
 myAudio.style.width ='100%'
-myAudio.style.margin ='100px 0 100px 0'
+myAudio.style.margin ='0px 0 100px 0'
 myAudio.controls = true; 
 myAudio.src = arr.pop();         //每次读数组最后一个元素 
 myAudio.addEventListener('ended', playEndedHandler, false); 
@@ -122,9 +126,8 @@ console.log(arr.length);
 } 
 </script> 
 
-</div>
-</div> 
-</div>
+
+
 
 
 
