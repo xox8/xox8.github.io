@@ -1,4 +1,5 @@
-中超,https://ppw.gy940830.com/live/pptv/ce6e4e50e6495e571f1d0da17bde6357/qcloud.live.pptv.com/play.m3u8?skey=2YGZmFjYwQ2Y3gjMwUjZjJTZ0M3MlBTYiJzN4cTMwcjY2MTMjBjZwMjN4EjZ&k=48b7bb6e8e0060b7eaaad9a966885fde-ef6c-1600210384%26segment%3D45b5a799_1600167184%26bppcataid%3D38
+cs,https://hbpoon.top/tvb.m3u
+cs8,https://hbpoon.top/tvb.m3u8
 奥义大叔,http://hls.dszbdq.cn/bili.php?id=21515763
 bug哥,http://hls.dszbdq.cn/bili.php?id=1629664
 装机猿,http://hls.dszbdq.cn/bili.php?id=1361615
