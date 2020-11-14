@@ -62,13 +62,13 @@ button.paper-button{border:0;font-size:1em;line-height:25px;background-color:#ff
 .paper-shadow-bottom-z-3{box-shadow:0 12px 15px 0 rgba(0,0,0,.24)}
 .paper-shadow-top-z-4{box-shadow:0 25px 55px 0 rgba(0,0,0,.21)}
 .card{background:#fff;width:300px;height:300px;position:relative;margin:16px;border-radius:2px}
-body{background:#232323;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;font-size:16px;color:#fff;overflow-x:hidden}
+body{background:#232323;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;font-size:16px;color:#fff;overflow-x:hidden;word-break:break-all;}
 p{margin:30px 0}
 
 
 /*首頁*/
 
-.navbar-custom .navbar-brand{font-weight:800;color:#fff;height:56px;line-height:25px;}
+.navbar-custom .navbar-brand{color:#fff;font-weight:800;height:56px;line-height:25px;}
 /*標題*/
 h1,h2,h3,h4,h5,h6{color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC",
 "Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;line-height:1.7;line-height:1.1;font-weight:700;}
@@ -129,12 +129,12 @@ pre code{display:block;width:auto;white-space:pre;word-wrap:normal}
 .navbar-custom .nav li a:active{background:rgba(0,0,0,.12)}
 @media only screen and (min-width:768px){.navbar-custom{background:0 0;border-bottom:1px solid transparent}
 .navbar-custom body{font-size:20px}
-.navbar-custom .navbar-brand{color:#fff;padding:20px;line-height:20px}
+.navbar-custom .navbar-brand{padding:20px;line-height:20px}
 
 /*導航欄*/
-.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:#808080}
-.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:#808080}
-.navbar-custom .navbar-brand:hover{color:#808080}
+.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:rgba(255,255,255,.5)}
+.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:rgba(255,255,255,.5)}
+.navbar-custom .navbar-brand:hover{color:rgba(255,255,255,.5)}
 
 .navbar-custom .nav li a{color:#fff;padding:20px}
 .navbar-custom .nav li a:active{background:0 0}}
@@ -269,7 +269,7 @@ img::-moz-selection{color:#fff;background:0 0}
 }
 .bg1{background-color:rgba(255,255,255,.2);margin-top:60px;width:90%;height:90%;max-width:500px;border-radius:5px;padding:20px 20px 20px 20px;}
 .bg2{width:90%;margin-top:60px;max-width:440px;border-radius:20px;font-size:0px;}
-.w1bg{background-color:rgba(101,101,101,.6);margin-top:60px;width:90%;height:90%;max-width:500px;border-radius:10px;padding:20px 20px 20px 20px;}
+.w1bg{background-color:rgba(101,101,101,.6);margin-top:60px;width:90%;height:90%;max-width:1024px;border-radius:10px;padding:10px 10px 10px 10px;}
 .w2bg{background-color:rgba(101,101,101,.6);margin-top:60px;width:90%;height:90%;max-width:500px;border-radius:10px;padding:20px 20px 20px 20px;}
 .top{margin-top:60px;}
 .wtop{margin-top:10em;}
@@ -299,6 +299,12 @@ wzt1{font-size:30px;font-weight:bolder;line-height:50px;color:#c9a168;margin-top
 wzt2{font-size:16px;font-weight:bolder;line-height:24px;color:#999;margin-top:0px}
 wzt2 a{font-size:16px;line-height:38px;color:#978367;margin-top:0px;} 
 wzt2 a:hover {color: #c9a168}
+wzt3{font-size:16px;font-weight:bolder;line-height:24px;color:#c9a168;margin-top:0px}
+mlzt1{font-size:30px;font-weight:bolder;line-height:24px;color:#999;padding:0 10px 0 10px}
+mlzt1 a{font-size:30px;line-height:38px;color:#c9a168;} 
+mlzt1 a:hover {color: rgba(201,161,104,0.5)}
+
+
 .fileDetails h3{margin:0;font-size:15px;font-weight:400}
 .fileDetails h4{margin:3px 0 0;font-size:11px;font-weight:300;opacity:.8}
 .fileButtons{right:25px;bottom:20px;position:absolute}
@@ -343,3 +349,30 @@ filter:drop-shadow(0px 0px 3px rgba(0,0,0,0.2)) opacity(0.85);background-size:40
 .tximg{width:150px;height:150px;border-radius:200px;margin:10px 0 10px 0}
 .name{margin:5px 0 25px 0}
 .name2{position: absolute;}
+
+.topbtn {
+	width: 51px;
+	height: 46px;
+	background-color: rgba(0,0,0,0.8);
+	border:2px solid rgba(201,161,104,0.8);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: fixed;
+	border-radius: 10px;
+	right:20px;
+	bottom:20px;
+	outline: none;
+}
+/*分辨率高于1170，采用下面的样式*/
+@media screen and (min-device-width: 1280px){
+.topbtn:hover{
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+-ms-transform: scale(1.05);
+-o-transform: scale(1.05);
+transform: scale(1.05);
+
+}
