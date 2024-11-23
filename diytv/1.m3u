@@ -44,12 +44,6 @@ http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHAN
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000350/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/CCTV4美洲.png" group-title="央视频道",CCTV-4 美洲
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000351/index.m3u8?IASHttpSessionId=
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/CHC动作电影.png" group-title="央视频道",CHC动作电影
-http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002030/index.m3u8?IASHttpSessionId=
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/CHC家庭影院.png" group-title="央视频道",CHC家庭影院
-http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002028/index.m3u8?IASHttpSessionId=
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/CHC影迷电影.png" group-title="央视频道",CHC影迷电影
-http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00002029/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/北京卫视.png" group-title="卫视频道",北京卫视
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000302/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/湖南卫视.png" group-title="卫视频道",湖南卫视
