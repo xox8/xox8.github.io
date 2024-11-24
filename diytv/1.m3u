@@ -123,5 +123,5 @@ http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHAN
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000066/index.m3u8
 #EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/大湾区卫视.png" group-title="卫视频道",大湾区卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8
-#EXTINF:-1 tvg-name="曼城VS熱刺" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/SP-FIFA.png" group-title="运动",曼城VS熱刺
-https://pull.dangaoka.com/live/stream-606060_lhd.flv?auth_key=1732386733-0-0-91c940500402dd3227e22a95e0efe479
+#EXTINF:-1 tvg-name="曼城VS熱刺" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/SP-FIFA.png" group-title="运动",葉士域治VS曼聯
+https://pull.dangaoka.com/live/stream-551866_lhd.flv?auth_key=1732469053-0-0-f05ac0b6cdbe70679b59fe163d0f039d
