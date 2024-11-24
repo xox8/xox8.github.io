@@ -1,7 +1,6 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
-#EXTINF:-1 tvg-name="曼城VS熱刺" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/SP-FIFA.png" group-title="喜愛",曼城VS熱刺
-https://pull.dangaoka.com/live/stream-606060_lhd.flv?auth_key=1732386733-0-0-91c940500402dd3227e22a95e0efe479
+
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/CCTV1.png" group-title="央视频道",CCTV-1 综合
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000311/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/CCTV2.png" group-title="央视频道",CCTV-2 财经
@@ -124,3 +123,5 @@ http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHAN
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000066/index.m3u8
 #EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/大湾区卫视.png" group-title="卫视频道",大湾区卫视
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8
+#EXTINF:-1 tvg-name="曼城VS熱刺" tvg-logo="https://gh-proxy.com/raw.githubusercontent.com/xox8/xox8.github.io/refs/heads/master/diytv/SP-FIFA.png" group-title="运动",曼城VS熱刺
+https://pull.dangaoka.com/live/stream-606060_lhd.flv?auth_key=1732386733-0-0-91c940500402dd3227e22a95e0efe479
